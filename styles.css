@@ -142,20 +142,19 @@ html {
     margin: 50px 0;
 }
 
-body .timeline-switcher button.btn {
-    padding: 12px 25px;
+.btn {
+    padding: 15px 30px;           /* Increased padding for larger buttons */
     margin: 0 10px;
     border: none;
     cursor: pointer;
-    background-color: #A5A58D;
-    color: #2A2A2A;
-    font-size: 18px;
+    background-color: #2A2A2A;    /* Set to black */
+    color: #E9ECEF;               /* Lighter color for contrast */
+    font-size: 20px;              /* Increased font size */
     font-family: 'Prompt', sans-serif;
     transition: background-color 0.3s, transform 0.3s;
-    border-radius: 10px;
 }
 
-body .timeline-switcher button.btn:hover {
-    background-color: #6B705C;
-    transform: scale(1.05);
+.btn:hover {
+    background-color: #6B705C;    /* Color transition on hover */
+    transform: scale(1.05);       /* Slightly enlarge the button on hover */
 }
