@@ -63,6 +63,17 @@ nav a:hover {
     color: #2A2A2A;
 }
 
+.linkedin-link {
+    display: inline-block;
+    margin-left: 10px; /* Adjust the spacing */
+}
+
+.linkedin-link img {
+    max-width: 30px; /* Set the image width */
+    max-height: 30px; /* Set the image height */
+    vertical-align: middle;
+}
+
 
 /* Timeline styles */
 .timeline {
