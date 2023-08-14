@@ -247,4 +247,24 @@ html {
     padding-right: 20%; /* Adjust this to move away from the right edge */
 }
 
+.download-cv {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #2A2A2A; /* You can adjust this color as needed */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    align-self: flex-start; /* Align to the start of the flex container */
+}
+
+.download-cv:hover {
+    background-color: #6B705C;
+}
+
+.download-cv i {
+    margin-right: 5px;
+}
 
