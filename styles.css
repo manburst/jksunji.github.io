@@ -209,10 +209,11 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%; /* Full width of its container */
 }
 
 .honor {
-    width: 70%;
+    width: 100%; /* Make each honor item full width */
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -237,11 +238,10 @@ html {
 }
 
 .honor.left {
-    align-items: flex-start;
+    text-align: left;
 }
 
 .honor.right {
-    align-items: flex-end;
+    text-align: right;
 }
-
 
