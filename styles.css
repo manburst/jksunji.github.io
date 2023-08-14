@@ -298,3 +298,10 @@ html {
     text-decoration: none;
     color: inherit;
 }
+
+.truncate {
+    width: calc(50% - 10px); /* or any width you prefer */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
