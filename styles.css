@@ -142,20 +142,20 @@ html {
     margin: 50px 0;
 }
 
-button.btn {
-    padding: 12px 25px;              /* Adjusted padding */
+body .timeline-switcher button.btn {
+    padding: 12px 25px;
     margin: 0 10px;
     border: none;
     cursor: pointer;
-    background-color: #A5A58D;      /* Earth tone like the card */
-    color: #2A2A2A;                 /* Adjusted color for contrast with the earth tone background */
-    font-size: 18px;                /* Decreased font size */
+    background-color: #A5A58D;
+    color: #2A2A2A;
+    font-size: 18px;
     font-family: 'Prompt', sans-serif;
     transition: background-color 0.3s, transform 0.3s;
-    border-radius: 10px;            /* Added border-radius for softer edges */
+    border-radius: 10px;
 }
 
-.btn:hover {
-    background-color: #6B705C;    /* Color transition on hover */
-    transform: scale(1.05);       /* Slightly enlarge the button on hover */
+body .timeline-switcher button.btn:hover {
+    background-color: #6B705C;
+    transform: scale(1.05);
 }
