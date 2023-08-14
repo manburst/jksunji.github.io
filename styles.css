@@ -148,7 +148,7 @@ html {
     border: none;
     cursor: pointer;
     background-color: #E9ECEF;    
-    color: #E9ECEF;               /* Lighter color for contrast */
+    color: #333;               /* Lighter color for contrast */
     font-size: 20px;              /* Increased font size */
     font-family: 'Prompt', sans-serif;
     transition: background-color 0.3s, transform 0.3s;
