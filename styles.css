@@ -133,3 +133,25 @@ html {
     scroll-behavior: smooth;
 }
 
+.timeline.work {
+    display: none;
+}
+
+.timeline-switcher {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #A5A58D;
+    color: #2A2A2A;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #6B705C;
+}
