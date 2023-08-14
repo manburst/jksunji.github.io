@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - John Doe</title>
+    <title>About - Jirachote Karunyarkon</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
@@ -15,8 +15,8 @@
     <nav>
         <ul>
             <li><a href="#">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#">Experience</a></li>
+            <li><a href="#education" onclick="switchTimeline('education')">Education</a></li>
+            <li><a href="#work" onclick="switchTimeline('work')">Experience</a></li>
             <li><a href="#">Skill</a></li>
             <li><a href="#">Honors</a></li>
             <li><a href="#">Projects</a></li>
@@ -30,6 +30,10 @@
             <p>Born and raised in Nonthaburi, Thailand, graduated from Chulalongkorn University with a Master’s degree in Bioinformatics and Computational Biology and from Mahidol University with a Bachelor’s degree in Biology. Currently, working as a clinical bioinformatics and data analyst. The main objective is to identify disease-causing mutations from sequencing data, create bioinformatics pipelines for data analysis, and analyze biological data to gain valuable insights.</p>
         </div>
     </section>
+    <div class="timeline-switcher">
+    <button class="btn" onclick="switchTimeline('education')">Education</button>
+    <button class="btn" onclick="switchTimeline('work')">Work Experience</button>
+    </div>
     <section id="education" class="timeline">
     <div class="timeline-item right">
         <h2>High school (Mathematics and Science Program)</h2>
@@ -47,7 +51,19 @@
         <p>GPA: 4.00</p>
     </div>
 </section>
-
+    <section id="work" class="timeline work">
+    <div class="timeline-item right">
+        <h2>Company A</h2>
+        <h3>Software Developer</h3>
+        <p>2021 - 2023</p>
+    </div>
+    <div class="timeline-item left">
+        <h2>Company B</h2>
+        <h3>Data Analyst</h3>
+        <p>2019 - 2021</p>
+    </div>
+    <!-- ... (Add more work items as needed) ... -->
+</section>
     <script src="script.js"></script>
 </body>
 
