@@ -217,8 +217,6 @@ html {
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    padding-left: 2em; /* Provide some space from the left edge */
-    padding-right: 2em; /* Provide some space from the right edge */
 }
 
 .honor h3 {
@@ -241,9 +239,12 @@ html {
 
 .honor.left {
     text-align: left;
+    margin-right: 10%; /* 10% margin from the right to make it move towards the center */
 }
 
 .honor.right {
     text-align: right;
+    margin-left: 10%; /* 10% margin from the left to make it move towards the center */
 }
+
 
