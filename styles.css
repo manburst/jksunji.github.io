@@ -143,15 +143,16 @@ html {
 }
 
 button.btn {
-    padding: 15px 30px;           /* Increased padding for larger buttons */
+    padding: 12px 25px;              /* Adjusted padding */
     margin: 0 10px;
     border: none;
     cursor: pointer;
-    background-color: #2A2A2A;    /* Set to black */
-    color: #E9ECEF;               /* Lighter color for contrast */
-    font-size: 20px;              /* Increased font size */
+    background-color: #A5A58D;      /* Earth tone like the card */
+    color: #2A2A2A;                 /* Adjusted color for contrast with the earth tone background */
+    font-size: 18px;                /* Decreased font size */
     font-family: 'Prompt', sans-serif;
     transition: background-color 0.3s, transform 0.3s;
+    border-radius: 10px;            /* Added border-radius for softer edges */
 }
 
 .btn:hover {
