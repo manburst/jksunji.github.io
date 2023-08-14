@@ -147,16 +147,18 @@ html {
     margin: 0 10px;
     border: none;
     cursor: pointer;
-    background-color: #2A2A2A;    /* Set to black */
+    background-color: #000;       /* Set to pure black */
     color: #E9ECEF;               /* Lighter color for contrast */
     font-size: 20px;              /* Increased font size */
     font-family: 'Prompt', sans-serif;
     transition: background-color 0.3s, transform 0.3s;
+    border-radius: 10px;          /* Rounded edges */
 }
 
 .btn:hover {
     background-color: #6B705C;    /* Color transition on hover */
     transform: scale(1.05);       /* Slightly enlarge the button on hover */
 }
+
 
 
