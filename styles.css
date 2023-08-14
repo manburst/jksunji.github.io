@@ -203,3 +203,45 @@ html {
 .languages p:last-child {
     color: #777;
 }
+
+#honors {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.honor {
+    max-width: 70%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.honor h3 {
+    font-size: 1.8em; /* Adjust based on your preference */
+}
+
+.honor p {
+    margin-top: 10px;
+}
+
+.honor a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.2s;
+}
+
+.honor a:hover {
+    color: #0056b3;
+}
+
+.honor.left {
+    text-align: left;
+}
+
+.honor.right {
+    text-align: right;
+}
+
