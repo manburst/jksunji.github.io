@@ -143,15 +143,18 @@ html {
 }
 
 .btn {
-    padding: 10px 20px;
+    padding: 15px 30px;           /* Increased padding for larger buttons */
     margin: 0 10px;
     border: none;
     cursor: pointer;
-    background-color: #A5A58D;
-    color: #2A2A2A;
-    transition: background-color 0.3s;
+    background-color: #2A2A2A;    /* Set to black */
+    color: #E9ECEF;               /* Lighter color for contrast */
+    font-size: 20px;              /* Increased font size */
+    font-family: 'Prompt', sans-serif;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .btn:hover {
-    background-color: #6B705C;
+    background-color: #6B705C;    /* Color transition on hover */
+    transform: scale(1.05);       /* Slightly enlarge the button on hover */
 }
