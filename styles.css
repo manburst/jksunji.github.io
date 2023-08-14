@@ -69,7 +69,7 @@ nav a:hover {
     max-width: 800px;
     margin: 100px auto;
     padding: 50px 0;
-    background: img/graduation_cap.png; /* Adjust 'path-to-your-mortarboard-vector.svg' with the actual path */
+    background: url(https://github.com/manburst/jksunji.github.io/blob/a794706037edf347dba2ac9e8f97632ec993f7d7/img/graduation_cap.png); /* Adjust 'path-to-your-mortarboard-vector.svg' with the actual path */
     background-size: contain; /* This will ensure the image is fully visible */
     background-color: rgba(128, 128, 128, 0.1); /* This will overlay a transparent grey color */
 }
