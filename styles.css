@@ -142,7 +142,7 @@ html {
     margin: 50px 0;
 }
 
-.btn {
+button.btn {
     padding: 15px 30px;           /* Increased padding for larger buttons */
     margin: 0 10px;
     border: none;
@@ -150,7 +150,7 @@ html {
     background-color: #2A2A2A;    /* Set to black */
     color: #E9ECEF;               /* Lighter color for contrast */
     font-size: 20px;              /* Increased font size */
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Prompt', sans-serif !important;
     transition: background-color 0.3s, transform 0.3s;
 }
 
