@@ -62,3 +62,72 @@ nav a:hover {
     margin-top: 10px;
     color: #2A2A2A;
 }
+
+/* Timeline styles */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 50px 0;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: #6B705C;
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.timeline-item.right {
+    margin-left: 50%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.timeline-item.left {
+    margin-right: 50%;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #6B705C;
+    z-index: 1;
+}
+
+.timeline-item.right::before {
+    left: -30px;
+    top: 20px;
+}
+
+.timeline-item.left::before {
+    right: -30px;
+    top: 20px;
+}
+
+.timeline-item h2,
+.timeline-item h3,
+.timeline-item p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
