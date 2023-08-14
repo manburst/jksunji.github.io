@@ -147,7 +147,7 @@ html {
     margin: 0 10px;
     border: none;
     cursor: pointer;
-    background-color: #000;       /* Set to pure black */
+    background-color: #E9ECEF;    
     color: #E9ECEF;               /* Lighter color for contrast */
     font-size: 20px;              /* Increased font size */
     font-family: 'Prompt', sans-serif;
