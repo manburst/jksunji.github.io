@@ -212,22 +212,21 @@ html {
 }
 
 .honor {
-    max-width: 70%;
+    width: 70%;
     margin-bottom: 30px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .honor h3 {
     font-size: 1.8em; /* Adjust based on your preference */
 }
 
-.honor p {
+.honor p, .honor a {
     margin-top: 10px;
 }
 
 .honor a {
-    display: block;
-    margin-top: 10px;
     text-decoration: none;
     color: #007BFF;
     transition: color 0.2s;
@@ -238,10 +237,11 @@ html {
 }
 
 .honor.left {
-    text-align: left;
+    align-items: flex-start;
 }
 
 .honor.right {
-    text-align: right;
+    align-items: flex-end;
 }
+
 
