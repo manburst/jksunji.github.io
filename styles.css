@@ -69,6 +69,9 @@ nav a:hover {
     max-width: 800px;
     margin: 100px auto;
     padding: 50px 0;
+    background: img/graduation_cap.png; /* Adjust 'path-to-your-mortarboard-vector.svg' with the actual path */
+    background-size: contain; /* This will ensure the image is fully visible */
+    background-color: rgba(128, 128, 128, 0.1); /* This will overlay a transparent grey color */
 }
 
 .timeline::before {
@@ -76,26 +79,26 @@ nav a:hover {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 50%;
+    left: 25%;  /* Adjusted to move the timeline line more to the left */
     width: 2px;
     background: #6B705C;
 }
 
 .timeline-item {
     position: relative;
-    width: 50%;
+    width: 45%;  /* Adjusted to take slightly less than half of the container's width */
     padding: 20px;
     box-sizing: border-box;
 }
 
 .timeline-item.right {
-    margin-left: 50%;
+    margin-left: 5%; /* Small margin for spacing */
     padding-left: 30px;
     text-align: left;
 }
 
 .timeline-item.left {
-    margin-right: 50%;
+    margin-right: 50%; /* This will keep it on the left side */
     padding-right: 30px;
     text-align: right;
 }
@@ -126,6 +129,7 @@ nav a:hover {
     margin: 0;
     margin-bottom: 10px;
 }
+
 
 html {
     scroll-behavior: smooth;
