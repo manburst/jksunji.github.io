@@ -239,12 +239,12 @@ html {
 
 .honor.left {
     text-align: left;
-    margin-right: 10%; /* 10% margin from the right to make it move towards the center */
+    padding-left: 20%; /* Adjust this to move away from the left edge */
 }
 
 .honor.right {
     text-align: right;
-    margin-left: 10%; /* 10% margin from the left to make it move towards the center */
+    padding-right: 20%; /* Adjust this to move away from the right edge */
 }
 
 
