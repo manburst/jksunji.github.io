@@ -6,8 +6,22 @@ body {
     padding: 0;
 }
 
+
 body h1 {
-    font-size: 3em; /* adjust this value as needed */
+    font-size: 2.7em; /* adjust this value as needed */
+    position: relative; /* Required to properly position the ::after pseudo-element */
+    display: inline-block; /* Makes sure the width of the h1 only stretches as far as its content */
+    padding-bottom: 5px; /* Add some space for the line below the text */
+}
+
+body h1::after {
+    content: ""; /* This is mandatory for the pseudo-element to show */
+    position: absolute; 
+    bottom: 0; /* Align to the bottom of the h1 */
+    left: 0; /* Align to the left of the h1 */
+    width: 100%; /* Makes sure the line spans the full width of the h1 content */
+    height: 2px; /* Adjust for the thickness of the line */
+    background-color: grey; /* Adjust the color as needed */
 }
 
 nav {
