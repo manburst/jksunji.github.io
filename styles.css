@@ -288,6 +288,7 @@ html {
 
 #projects {
     padding: 50px 0;
+    text-align: center; /* To ensure the "My Projects" title is centered */
 }
 
 .project-row {
