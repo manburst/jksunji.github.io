@@ -231,14 +231,21 @@ html {
 }
 
 .honor {
-    width: 100%; /* Make each honor item full width */
+    width: 80%; /* Adjust to your liking */
     margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
+    padding: 15px 0; /* Space at the top and bottom of each honor */
+    border-bottom: 1px solid grey; /* Grey line separating each honor */
+    text-align: center; /* Centered text */
 }
 
-.honor h3 {
+.honor:last-child {
+    border-bottom: none; /* Remove the border for the last honor */
+}
+
+.honor h3, .honor strong {
     font-size: 1.8em; /* Adjust based on your preference */
+    font-weight: bold; /* Bold text */
+    margin-top: 10px;
 }
 
 .honor p, .honor a {
@@ -255,15 +262,6 @@ html {
     color: #0056b3;
 }
 
-.honor.left {
-    text-align: left;
-    padding-left: 20%; /* Adjust this to move away from the left edge */
-}
-
-.honor.right {
-    text-align: right;
-    padding-right: 20%; /* Adjust this to move away from the right edge */
-}
 
 .download-cv {
     display: inline-block;
