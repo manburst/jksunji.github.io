@@ -51,41 +51,61 @@ nav a:hover {
     color: #2A2A2A;
 }
 
-@media only screen and (max-width: 768px) {
-    /* Adjusting card properties */
-    .card {
-        flex-direction: column;
-        padding: 20px;
-    }
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #A5A58D;
+    border-radius: 10px;
+    padding: 30px; /* Increased padding for bigger card */
+    max-width: 900px; /* Increased width for bigger card */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /* Added for positioning email and phone details */
+}
 
-    .card img {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
+.card img {
+    max-width: 150px; /* Increased from 100px */
+    max-height: 150px; /* Increased from 100px */
+    border-radius: 10px;
+    margin-right: 20px;
+}
 
-    .content {
-        text-align: center;
-    }
+.content h1 {
+    margin: 0;
+    color: #2A2A2A;
+}
 
-    .content h1 {
-        font-size: 24px; /* Reduce font size for smaller screens */
-    }
+.content p {
+    margin-top: 10px;
+    color: #2A2A2A;
+}
 
-    .content p {
-        font-size: 14px; /* Reduce font size for smaller screens */
-    }
+.linkedin-link {
+    display: inline-block;
+    margin-left: 10px; /* Adjust the spacing */
+}
 
-    .download-cv, .linkedin-link {
-        display: block; /* Stack the links vertically */
-        margin: 10px auto; /* Center them and add vertical spacing */
-    }
+.linkedin-link img {
+    max-width: 30px; /* Set the image width */
+    max-height: 30px; /* Set the image height */
+    vertical-align: middle;
+}
 
-    /* Adjusting contact details for mobile */
-    .contact-details {
-        position: relative; /* Reset to default */
-        margin-top: 20px;
-        text-align: center;
-    }
+/* New Styles for Email and Phone */
+.contact-details {
+    position: absolute; /* Absolutely position relative to the card */
+    bottom: 15px; /* Spacing from the bottom */
+    right: 15px; /* Spacing from the right */
+    color: #2A2A2A; /* The greyish-black color you mentioned */
+    font-size: 12px; /* Smaller font size */
+}
+
+/* Adding space between email and phone */
+.contact-details p {
+    margin: 0;
+    line-height: 1.5;
 }
 
 /* Timeline styles */
