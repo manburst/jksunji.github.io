@@ -357,3 +357,8 @@ html {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.skill-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
